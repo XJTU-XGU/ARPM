@@ -1,19 +1,19 @@
 seed=2023
 gpu_id=0
 
-## office-home
-#for s in $(seq 0 3)
-#do
-#    for t in $(seq 0 3)
-#    do
-#        if [ "$s" -ne "$t" ]; then
-#            python main.py --dset office-home --s $s --t $t --seed $seed --gpu_id $gpu_id
-#        fi
-#    done
-#done
-#
-##visda
-#python main.py --dset visda-2017 --s 0 --t 1 --seed $seed --gpu_id $gpu_id
+# office-home
+for s in $(seq 0 3)
+do
+   for t in $(seq 0 3)
+   do
+       if [ "$s" -ne "$t" ]; then
+           python main.py --dset office-home --s $s --t $t --seed $seed --gpu_id $gpu_id
+       fi
+   done
+done
+
+#visda
+python main.py --dset visda-2017 --s 0 --t 1 --seed $seed --gpu_id $gpu_id
 
 #imagenet-caltech
 for s in $(seq 0 1)
