@@ -3,7 +3,8 @@
 Code for paper "Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization: A Theoretically Motivated Approach for Partial Domain Adaptation".
 ## Prerequisites:
 python==3.9.12 <br>
-torch==2.0.2 <br>
+torch==2.0.1 <br>
+torchaudio==2.0.2 <br>
 torchvision==0.15.2 <br>
 numpy==1.25.2 <br>
 cvxpy==1.3.2 <br>
