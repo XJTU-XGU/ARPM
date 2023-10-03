@@ -10,7 +10,8 @@ numpy==1.25.2 <br>
 cvxpy==1.3.2 <br>
 tqdm==4.66.1 <br>
 Pillow==10.0.0 <br>
-scikit-learn==1.3.0
+scikit-learn==1.3.0 <br>
+torch_ema==0.3
 
 ## Datasets:
 Download the datasets of <br>
