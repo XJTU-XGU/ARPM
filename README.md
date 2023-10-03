@@ -52,6 +52,7 @@ python train.py --dset imagenet_caltech --s 0 --t 1
 ```
 
 ## Results
+We run the code on a single Tesla V-100 GPU. The results are as follows.
 
 Office:
 
