@@ -1,6 +1,6 @@
-# Adversarial Reweighting with α-Power Maximization: A Theoretically Motivated Approach for Partial Domain Adaptation
+# Adversarial Reweighting with α-Power Maximization for Partial Domain Adaptation
 
-Code for paper "Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization: A Theoretically Motivated Approach for Partial Domain Adaptation".
+Code for paper "Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization for Partial Domain Adaptation".
 ## Prerequisites:
 python==3.9.12 <br>
 torch==2.0.1 <br>
