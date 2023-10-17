@@ -301,7 +301,7 @@ if __name__ == "__main__":
     parser.add_argument('--gpu_id', type=str, nargs='?', default='3', help="device id to run")
     parser.add_argument('--s', type=int, default=0, help="source")
     parser.add_argument('--t', type=int, default=1, help="target")
-    parser.add_argument('--seed', type=int, default=2019, help="random seed")
+    parser.add_argument('--seed', type=int, default=2023, help="random seed")
     parser.add_argument('--batch_size', type=int, default=64, help="batch_size")
     parser.add_argument('--net', type=str, default='ResNet50', choices=["ResNet50"])
     parser.add_argument('--dset', type=str, default='visda-2017',
