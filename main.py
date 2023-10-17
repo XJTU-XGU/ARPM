@@ -298,7 +298,7 @@ def train(args):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Adversarial Reweighting for Partial Domain Adaptation')
-    parser.add_argument('--gpu_id', type=str, nargs='?', default='3', help="device id to run")
+    parser.add_argument('--gpu_id', type=str, nargs='?', default='0', help="device id to run")
     parser.add_argument('--s', type=int, default=0, help="source")
     parser.add_argument('--t', type=int, default=1, help="target")
     parser.add_argument('--seed', type=int, default=2023, help="random seed")
