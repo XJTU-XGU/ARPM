@@ -7,7 +7,7 @@ do
    for t in $(seq 0 3)
    do
        if [ "$s" -ne "$t" ]; then
-           python main.py --dset office-home --s $s --t $t --seed $seed --gpu_id $gpu_id
+           python main.py --dset office_home --s $s --t $t --seed $seed --gpu_id $gpu_id
        fi
    done
 done
