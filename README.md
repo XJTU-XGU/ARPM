@@ -34,23 +34,23 @@ and put them into the folder "./data/" and modify the path of images in each '.t
 ## Training
 VisDA-2017:
 ```
-python train.py --dset visda-2017 --s 0 --t 1
+python main.py --dset visda-2017 --s 0 --t 1
 ```
 DomainNet:
 ```
-python train.py --dset domainnet --s 0 --t 1
+python main.py --dset domainnet --s 0 --t 1
 ```
 Office-Home:
 ```
-python train.py --dset office_home --s 0 --t 1
+python main.py --dset office_home --s 0 --t 1
 ```
 Office:
 ```
-python train.py --dset office --s 0 --t 1
+python main.py --dset office --s 0 --t 1
 ```
 ImageNet-Caltech:
 ```
-python train.py --dset imagenet_caltech --s 0 --t 1
+python main.py --dset imagenet_caltech --s 0 --t 1
 ```
 
 ## Results
