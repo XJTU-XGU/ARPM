@@ -25,8 +25,8 @@ def main(args):
     net = resnet18(pretrained=True).cuda()
     logging.info("Model loaded")
 
-    # res = evaluate.test(data_loader, net)[0] * 100
-    # logging.info(f'Error Before Adaptation: {res:.1f}')
+    res = evaluate.test(data_loader, net)[0] * 100
+    logging.info(f'Error Before Adaptation: {res:.1f}')
 
     logging.info(f"\n\nBegin {args.method}")
     results = []
