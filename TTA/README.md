@@ -35,7 +35,7 @@ python main.py --method tpm --data_dir root/to/imagenet-r
 We run the code on a single Tesla V-100 GPU. The results are as follows.
 
 |                          | source-trained model  | tent | tpm  |
-| ------------------------ | ---- | ---- | ---- |
+| ------------------------ | :----: | ---- | ---- |
 | Average error of 10 runs | 67.0 | 63.2 | 61.7 |
 
 
