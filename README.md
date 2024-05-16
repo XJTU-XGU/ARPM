@@ -1,8 +1,8 @@
 # Adversarial Reweighting with α-Power Maximization for Partial Domain Adaptation
 
-Code for paper ["Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization for Partial Domain Adaptation, IJCV, 2024"](https://arxiv.org/abs/2404.17275). 
+Code for paper ["Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization for Domain Adaptation, IJCV, 2024"](https://arxiv.org/abs/2404.17275). 
 
-This is the extended version of the conference paper ["Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization for Partial Domain Adaptation. NeurIPS. 2021"](https://github.com/XJTU-XGU/Adversarial-Reweighting-for-Partial-Domain-Adaptation). The extended version is more stable and more effective. 
+This is the extended version of the conference paper ["Xiang Gu, Xi Yu, Yan Yang, Jian Sun, Zongben Xu, Adversarial Reweighting with α-Power Maximization for Partial Domain Adaptation. NeurIPS, 2021"](https://github.com/XJTU-XGU/Adversarial-Reweighting-for-Partial-Domain-Adaptation). The extended version is more stable and more effective. 
 
 We have extended our method to open-set domain adaptation ([OSDA](https://github.com/XJTU-XGU/ARPM/tree/main/OSDA)), universal domain adaptation ([UniDA](https://github.com/XJTU-XGU/ARPM/tree/main/UniDA)), and test-time adaptation ([TTA](https://github.com/XJTU-XGU/ARPM/tree/main/TTA)). Please refer to them.
 
